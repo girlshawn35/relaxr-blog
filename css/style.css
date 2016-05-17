@@ -1,0 +1,193 @@
+/*
+Project Name: Relaxr Blog
+Client: Homework Assignment #2
+Author: Shawn Aperocho
+Developer @GA in LA
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+header {
+  background-color: #033048;
+  width: 100%;
+}
+
+header ul {
+list-style:none;
+}
+
+header ul li {
+  display:inline-block;
+  color:#f9e42e;
+  font-family: 'Arial', sans-serif;
+
+}
+
+header ul li a {
+  color: inherit;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  float: right;
+}
+
+nav {
+/* float: right;*/
+ padding-right: 50px;
+}
+
+  body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+font-family: 'Arial', sans-serif;
+}
+
+  p {
+      color: #000;
+      font-size: 13px;
+      line-height: 1.8;
+      font-weight: light;
+      padding-right: 10px;
+  }
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: semibold;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-family: 'Arial', sans-serif;
+}
+
+section {
+  width: 60%;
+  background-color: white;
+  padding-left: 50px;
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer {
+  background-color: #2E2E2E;
+  width: 100%;
+  height: 215px;
+
+  text-align: center;
+  color: white;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+#socials img{
+    padding: 10px 15px 40px 15px;
+}
+.white-logo {
+  text-align: left;
+  color: white;
+  float: left;
+  padding-left: 50px;
+}
+
+.yellow-logo {
+  text-align: center;
+  color: #f9e42e;
+}
+
+#yellow {
+  width: 100%;
+  height: 70px;
+  background-color: yellow;
+  padding: 15px;
+}
+#read-more {
+  color: inherit;
+  text-decoration: none;
+  padding: 24px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'arial', sans-serif;
+  text-align: right;
+}
+
+#sign-up {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #2B4052;
+  width: 200px;
+  height: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
