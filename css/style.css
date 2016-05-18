@@ -48,6 +48,7 @@ Developer @GA in LA
 header {
   background-color: #033048;
   width: 100%;
+  height: 80px;
 }
 
 header ul {
@@ -57,21 +58,22 @@ list-style:none;
 header ul li {
   display:inline-block;
   color:#f9e42e;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
 header ul li a {
   color: inherit;
   text-decoration: none;
-  padding-top: 32px;
+  /*padding-top: 32px;
   padding-bottom: 30px;
   padding-left: 40px;
+  padding-right: 40px;*/
+  margin:32px 40px 40px 40px;
   float: right;
 }
 
 nav {
-/* float: right;*/
  padding-right: 50px;
 }
 
@@ -80,7 +82,7 @@ nav {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-font-family: 'Arial', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
   p {
@@ -91,13 +93,20 @@ font-family: 'Arial', sans-serif;
       padding-right: 10px;
       padding-bottom: 10px;
   }
+#one:first-letter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36pt;
+    float: left;
+    font-weight: bold;
+    }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  padding-top: 24px;
+  padding-top: 20px;
+  padding-right: 24px;
   padding-bottom: 24px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -107,18 +116,18 @@ h2 {
   text-align: justify;
   padding-top: 24px;
   padding-bottom: 18px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
   width: 70%;
-  background-color: #EEEEED;
   padding-left: 50px;
   display: inline-block;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 20px;
   float: left;
+  display: inline-block;
 }
 
 aside {
@@ -134,7 +143,7 @@ aside {
 h3 {
   font-size: 18px;
   font-weight: bolder;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #033048;
   padding: 20px 10px 10px 0px;
   }
@@ -211,7 +220,7 @@ footer {
 #yellow {
   width: 100%;
   height: 70px;
-  background-color: yellow;
+  background-color: #f9e42e;
   padding: 15px;
   float:left;
 }
@@ -221,7 +230,7 @@ footer {
   padding: 10px;
   font-size: 13px;
   font-weight: bold;
-  font-family: 'arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: right;
   display: inline-block;
 }
@@ -231,7 +240,7 @@ footer {
   text-decoration: none;
   font-size: 13px;
   font-weight: bold;
-  font-family: 'arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   float: left;
 }
@@ -239,7 +248,7 @@ footer {
 #sign-up {
   font-size: 12px;
   font-weight: bold;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
   background-color: #2B4052;
@@ -257,6 +266,12 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+a:hover { 
+    background-color: #f9e42e;
+}
 
+nav a:hover {
+  color: #033048;
+}
 
 
