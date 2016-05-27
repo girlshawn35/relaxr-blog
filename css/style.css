@@ -82,7 +82,7 @@ nav {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
   p {
@@ -215,6 +215,7 @@ footer {
 .yellow-logo {
   text-align: center;
   color: #f9e42e;
+  padding: 25px 0px 25px 0px;
 }
 
 #yellow {
@@ -251,8 +252,9 @@ footer {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
+  text-decoration: none;
   background-color: #2B4052;
-  width: 200px;
+  width: 400px;
   height: 35px;
   margin-top: auto;
   margin-bottom: auto;
