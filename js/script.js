@@ -12,6 +12,8 @@ console.log("loaded");
 		$(".readLessHide1").click(slideUp);
 		$("#readMore2").click(slideDown2);
 		$(".readLessHide2").click(slideUp2);
+		$("#learnMore").click(slideDown3);
+		$("#learnLessHide").click(slideUp3);
 
 		function slideDown() {
 		event.preventDefault()
@@ -35,5 +37,15 @@ console.log("loaded");
 		$("#showThisOnClick2").slideUp();
 		$(".readLessHide2").hide();
 		}
-
+		function slideDown3() {
+		event.preventDefault()
+		console.log("clicked")
+		$("#learnMoreText").slideDown();
+		$(".learnLessHide").show();
+		}
+		function slideUp3() {
+		event.preventDefault()
+		$("#learnMoreText").slideUp();
+		$(".learnLessHide").hide();
+		}
     });
