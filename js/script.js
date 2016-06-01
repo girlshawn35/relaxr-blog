@@ -10,7 +10,7 @@ console.log("loaded");
     	event.preventDefault()
 		$("#readMore1").click(slideDown);
 		$(".readLessHide1").click(slideUp);
-		$("readMore2").click(slideDown2);
+		$("#readMore2").click(slideDown2);
 		$(".readLessHide2").click(slideUp2);
 
 		function slideDown() {
