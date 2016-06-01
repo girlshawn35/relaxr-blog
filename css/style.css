@@ -264,6 +264,10 @@ footer {
   border-radius: 5px;
 }
 
+.hide {
+  display: none;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -276,4 +280,7 @@ nav a:hover {
   color: #033048;
 }
 
+section a:visited {
+  color:black;
+}
 

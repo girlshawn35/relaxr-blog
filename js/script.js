@@ -8,16 +8,32 @@ console.log("loaded");
 
     $(document).ready(function() {
     	event.preventDefault()
-		$(".hide").hide()
-		$(".readMore1").click(slideDown);
+		$("#readMore1").click(slideDown);
 		$(".readLessHide1").click(slideUp);
+		$("readMore2").click(slideDown2);
+		$(".readLessHide2").click(slideUp2);
 
 		function slideDown() {
+		event.preventDefault()
 		console.log("clicked")
 		$("#showThisOnClick1").slideDown();
+		$(".readLessHide1").show();
 		}
 		function slideUp() {
+		event.preventDefault()
 		$("#showThisOnClick1").slideUp();
+		$(".readLessHide1").hide();
+		}
+		function slideDown2() {
+		event.preventDefault()
+		console.log("clicked")
+		$("#showThisOnClick2").slideDown();
+		$(".readLessHide2").show();
+		}
+		function slideUp2() {
+		event.preventDefault()
+		$("#showThisOnClick2").slideUp();
+		$(".readLessHide2").hide();
 		}
 
     });
