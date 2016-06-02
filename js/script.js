@@ -19,33 +19,39 @@ console.log("loaded");
 		event.preventDefault()
 		console.log("clicked")
 		$("#showThisOnClick1").slideDown();
+		$("#readMore1").hide();
 		$(".readLessHide1").show();
 		}
 		function slideUp() {
 		event.preventDefault()
 		$("#showThisOnClick1").slideUp();
+		$("#readMore1").show();
 		$(".readLessHide1").hide();
 		}
 		function slideDown2() {
 		event.preventDefault()
 		console.log("clicked")
 		$("#showThisOnClick2").slideDown();
+		$("#readMore2").hide();
 		$(".readLessHide2").show();
 		}
 		function slideUp2() {
 		event.preventDefault()
 		$("#showThisOnClick2").slideUp();
+		$("#readMore2").show();
 		$(".readLessHide2").hide();
 		}
 		function slideDown3() {
 		event.preventDefault()
 		console.log("clicked")
 		$("#learnMoreText").slideDown();
+		$("#learnMore").hide();
 		$(".learnLessHide").show();
 		}
 		function slideUp3() {
 		event.preventDefault()
 		$("#learnMoreText").slideUp();
+		$("#learnMore").show();
 		$(".learnLessHide").hide();
 		}
     });
